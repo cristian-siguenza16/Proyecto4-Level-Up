@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	background:#242121;
+	color: black;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 10000px;
+	margin: 40px auto 90px auto;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+}
+
+.contenedor .pokemon {
+	text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    border-top: solid;
+    border-top-width: 15px;
+    border-top-color:red;
+    cursor:pointer;
+}
+
+.contenedor .pokemon .nombre {
+	font-size: 25px;
+	font-weight: 600;
+    border-top: solid;
+    border-top-width: 7px;
+    border-top-color:black;
+    padding: 15px 75px;
+}
+
+.contenedor .pokemon .sprit {
+	width: 90%;
+    padding: 15px 75px;
+}
